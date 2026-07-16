@@ -13,10 +13,13 @@ y = s - x
 
 b = (y*20)/100
 
-m = b / team_members
+
+total = y - b
+
+m = total / team_members
 
 print("ต้นทุนทั้งหมด", x,"THB")
 print("รายรับทั้งหมด",s,"THB")
-print("กำไรสุทธิ", y,"THB")
+print("กำไรสุทธิ", total,"THB")
 print("จำนวนเงินที่หักไปให้บอส", b,"THB")
 print("จำนวนเงินที่ลูกน้องแต่ละคนได้", m,"THB")
